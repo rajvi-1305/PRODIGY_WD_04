@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://rajvi-1305.github.io/PRODIGY_WD_01/include.js" defer></script>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body onload="includeHTML()">
+    <div include-html="https://rajvi-1305.github.io/PRODIGY_WD_01/header.html"></div>
+    <!-- <div include-html="header.html"></div> -->
+    <div class="bg">
+        <header id="pheader">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="home" class="home-section">
+            <div class="container">
+                <div class="home-content">
+                    <h1>Welcome to My Portfolio</h1>
+                    <p>Hello, I'm <span>Rajvi Mangroliya</span>, a web developer passionate about creating amazing web applications.</p>
+                    <img src="Images/profile.jpg" alt="Profile Photo" id="profile-photo">
+                    <div id="modal" style="display: none;">
+                        <div id="modal-content">
+                            <span id="close-btn">&times;</span>
+                            <img src="Images/profile.jpg" alt="Profile Photo" id="modal-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>Hi! I'm <span>Rajvi Mangroliya</span>.I am currently pursuing a Bachelor of Technology (B. Tech) in Computer Engineering.</p>
+                <p>I specialize in creating responsive and interactive websites using the latest technologies. Here’s a bit more about my journey:</p>
+                <br>
+                <ul>
+                    <li><strong>Education:</strong> Diploma in Information Technology</li>
+                    <li><strong>Experience:</strong> Intern at Prodigy InfoTech</li>
+                    <li><strong>Skills:</strong> HTML, CSS, JavaScript, PHP, MySQL</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project">
+                        <h3>LANDING PAGE</h3>
+                        <p>Create a landing page featuring a sticky navigation bar and dynamic 
+                           background color changes upon scrolling. This project aims to enhance user
+                           experience by ensuring easy navigation and visual appeal.</p>
+                        <a class="intern-project" href="https://rajvi-1305.github.io/PRODIGY_WD_01/landingpage.html">
+                            <input type="button" value="VIEW" name="view"/>
+                        </a>
+                    </div>
+                    <div class="project">
+                        <h3>STOPWATCH</h3>
+                        <p>Develop a digital stopwatch web application with functionalities including 
+                            Start, Pause, Reset, and Record lap. This project aims to provide users 
+                            with a convenient tool for timekeeping and lap recording.</p>
+                        <a class="intern-project" href="https://rajvi-1305.github.io/PRODIGY_WD_02/stopwatch.html">
+                            <input type="button" value="VIEW" name="view"/>
+                        </a>
+                    </div>
+                    <div class="project">
+                        <h3>TIC-TAC-TOE</h3>
+                        <p>Develop a Tic-Tac-Toe game web application that allows users to play against
+                            each other or against an AI opponent. This project aims to provide users 
+                            with an engaging and interactive gaming experience.</p>
+                        <a class="intern-project" href="https://rajvi-1305.github.io/PRODIGY_WD_03/tic-tac-toe.html">
+                            <input type="button" value="VIEW" name="view"/>
+                        </a>
+                    </div>
+                    <div class="project">
+                        <h3>PORTFOLIO</h3>
+                        <p>Create a personal portfolio website to showcase your skills, experience, 
+                           projects, education, and future goals. This project aims to establish your 
+                           online presence and serve as a professional platform for potential employers
+                           or clients to learn more about you.</p>
+                        <a class="intern-project" href="https://rajvi-1305.github.io/PRODIGY_WD_04/portfolio.html">
+                            <input type="button" value="VIEW" name="view"/>
+                        </a>
+                    </div>
+                    <div class="project">
+                        <h3>WEATHER WEB APP</h3>
+                        <p>Develop a Weather Web Application offering real-time weather updates and 
+                           forecasts for global cities. The app integrates weather APIs to deliver 
+                           accurate data, enhancing user experience with intuitive design and 
+                           location-based services. Ideal for users seeking reliable weather 
+                           information.</p>
+                        <a class="intern-project" href="https://rajvi-1305.github.io/PRODIGY_WD_05/weather.html">
+                            <input type="button" value="VIEW" name="view"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>If you’d like to get in touch, feel free to reach out via email:</p>
+                <a href="mailto:rajvimangroliya1305@gmail.com">Click Here</a>
+                <p>or Connect with me on LinkedIn:</p>
+                <a href="https://www.linkedin.com/in/rajvi-mangroliya" target="_blank">Connect</a>
+            </div>
+        </section>
+
+        <footer id="pfooter">
+            <div class="container">
+                <p>&copy; 2024 Rajvi Mangroliya. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <div include-html="https://rajvi-1305.github.io/PRODIGY_WD_01/footer.html"></div>
+    <!-- <div include-html="footer.html"></div> -->
+    <script src="portfolio.js"></script>
+</body>
+</html>
